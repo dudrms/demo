@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        // 버전을 0.8.0에서 1.0.0으로 수정합니다.
+        id "org.gradle.toolchains.foojay-resolver-convention" version "1.0.0"
+    }
+}
+
+plugins {
+    id "org.gradle.toolchains.foojay-resolver-convention"
+}
+
+rootProject.name = 'demo'
